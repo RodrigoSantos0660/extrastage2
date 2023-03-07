@@ -1,0 +1,97 @@
+#page{
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+main{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#titulo{
+width: 495px;
+height: 40px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 32px;
+font-family: 'Dosis', sans-serif;
+color: #3F3D56;
+}
+
+#titulo span{
+  color: #EE24FF;
+}
+
+#textos{
+width: 560px;
+height: 110px;
+color: #828282;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+}
+
+#textos p span{
+color: #3F3D56;
+font-weight: bold;
+}
+
+#texto1 {
+padding-bottom: 16px;
+}
+#texto2 strong {
+font-weight: bolder; 
+}
+
+#texto2 span {
+  font-weight: bolder; 
+  color: #3F3D56;
+ 
+    }
+
+#ultimotexto{
+font-family:'Open Sans', sans-serif ;
+margin-top: 40px;
+margin-bottom: 60px;
+}
+
+footer{
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#linksrodape{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #EE24FF ;
+}
+
+#linksrodape nav {
+  width: 380px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#linksrodape a{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #3F3D56;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#wave{
+height: 100px;
+width: 100%;
+background-image: url(./assets/imgwave.svg);
+margin-bottom: 0px;
+background-repeat: no-repeat;
+background-size: cover;
+}
